@@ -44,6 +44,9 @@ RSI is the capability of an intelligent system to transform acquired experience 
 
 This section logs material updates to this repository, including new source-verified research, industry coverage, and curation. It is editorially separate from the 522-paper taxonomy, so a release, project page, or repository update is never presented as a peer-reviewed paper by default.
 
+1. **2026-09-29 — Harness-level RSI papers added:** Added [Harness-Zero: Harness Distillation via Agent-as-Harness](https://arxiv.org/abs/2609.24974) and [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/abs/2601.21557) (ICML 2026, [code](https://github.com/metaevo-ai/meta-context-engineering)) to [L2](#2-l2---autonomy-over-improvement-strategies) after checking their primary sources.
+   ![](https://img.shields.io/badge/-Repository-475569) ![](https://img.shields.io/badge/-Research-2563eb)
+
 1. **2026-09-25 — Recent RSI sources reviewed:** Added [AIDE²](https://arxiv.org/abs/2609.26457) to [L5](#5-l5---from-environmental-adaptation-to-meta-improvement), added Meta's [Organizational Second Brain](https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/) to [Public Industry Practices](#industry-practices), and reconciled six catalog titles with their current arXiv records.
    ![](https://img.shields.io/badge/-Repository-475569) ![](https://img.shields.io/badge/-Research-2563eb) ![](https://img.shields.io/badge/-Industry-0f766e)
 
@@ -2169,6 +2172,18 @@ The following additions are explicitly listed in Table 4, which groups represent
    *Editorial rationale:* Task feedback updates agent-graph connections and node prompts across optimization rounds; the task utility and optimization procedures remain externally specified. *Updated object(s):* 3.1 Workflow / Graph; 1.2 Task Prompt / Template.
 
 </details>
+
+### Independently screened additions (2026-09-29)
+
+1. **Harness-Zero: Harness Distillation via Agent-as-Harness**<br>
+   [[Paper](https://arxiv.org/abs/2609.24974)] · arXiv:2609.24974<br>
+   ![](https://img.shields.io/badge/-Level--L2-7c3aed) ![](https://img.shields.io/badge/-In_scope--RSI-16a34a) ![](https://img.shields.io/badge/-Target--Model_Weights-2563eb)<br>
+   *Editorial rationale:* An agent-as-harness training loop distills the behaviors of an optimized harness into the target model's weights, so deployment retains harness-level gains without the harness at inference time; the harness is edited and selected by an external harnessing agent during training only. *Updated object(s):* 1.1 Model Weights; 3.1 Workflow.
+
+1. **Meta Context Engineering via Agentic Skill Evolution**<br>
+   [[Paper](https://arxiv.org/abs/2601.21557)] · [[Code](https://github.com/metaevo-ai/meta-context-engineering)] · arXiv:2601.21557 · ICML 2026<br>
+   ![](https://img.shields.io/badge/-Level--L2-7c3aed) ![](https://img.shields.io/badge/-In_scope--RSI-16a34a) ![](https://img.shields.io/badge/-Target--Tools_&_Skills-2563eb)<br>
+   *Editorial rationale:* A bi-level loop co-evolves context-engineering skills and the context artifacts they produce, replacing static context-engineering heuristics; task feedback drives bounded trials within each level. *Updated object(s):* 1.2 Task Prompt / Template; 4.4 Skill Library.
 
 <a id="3-l3---autonomy-over-future-learning-experience"></a>
 

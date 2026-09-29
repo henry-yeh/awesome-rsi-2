@@ -2176,7 +2176,7 @@ The following additions are explicitly listed in Table 4, which groups represent
 ### Independently screened additions (2026-09-29)
 
 1. **Harness-Zero: Harness Distillation via Agent-as-Harness**<br>
-   [[Paper](https://arxiv.org/abs/2609.24974)] · arXiv:2609.24974<br>
+   [[Paper](https://arxiv.org/abs/2609.24974)] · [[Code](https://github.com/metaevo-ai/harness-zero)] · arXiv:2609.24974<br>
    ![](https://img.shields.io/badge/-Level--L2-7c3aed) ![](https://img.shields.io/badge/-In_scope--RSI-16a34a) ![](https://img.shields.io/badge/-Target--Model_Weights-2563eb)<br>
    *Editorial rationale:* An agent-as-harness training loop distills the behaviors of an optimized harness into the target model's weights, so deployment retains harness-level gains without the harness at inference time; the harness is edited and selected by an external harnessing agent during training only. *Updated object(s):* 1.1 Model Weights; 3.1 Workflow.
 
